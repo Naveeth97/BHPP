@@ -37,6 +37,6 @@ area = st.number_input("AREA(Square Feet)")
 
 #Predict Button 
 if st.button("Predict"):
-    res = predict_price(location,area,bathroom,bhk) + 5000000
+    res = predict_price(location,area,bathroom,bhk) + 500
     st.subheader(f"Estimated Price is: {res:.2f} lakhs")
     
